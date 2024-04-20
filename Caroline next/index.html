@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/230e98b440.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Text For Caroline</title>
+    <style>
+        /* Style untuk tombol */
+        .custom-button {
+            background-color: #ffffff; /* Warna latar belakang */
+            color: rgb(255, 255, 255); /* Warna teks */
+            padding: 10px 20px; /* Padding atas dan bawah 10px, kiri dan kanan 20px */
+            border: none; /* Tanpa border */
+            cursor: pointer; /* Kursor jadi pointer ketika diarahkan */
+            border-radius: 5px; /* Sudut bulat */
+            transition: background-color 0.3s; /* Efek transisi */
+            font-family: Arial, sans-serif; /* Font family */
+            font-size: 16px; /* Ukuran teks */
+            text-transform: uppercase; /* Teks menjadi uppercase */
+        }
+
+        /* Hover state */
+        .custom-button:hover {
+            background-color: #ff0000; /* Ubah warna latar belakang saat dihover */
+        }
+
+        /* Active state */
+        .custom-button:active {
+            background-color: #ff0000; /* Ubah warna latar belakang saat ditekan */
+        }
+    </style>
+</head>
+
+<body>
+    <a href="Flores/FLORES.html" class="custom-button">💌</a>
+    <div id="loader"></div>
+    <div id="soup-container">
+        <div id="segments">
+        </div>
+        <div id="soup-nav">
+            <span id="soup-prev"><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i></span>
+            <span id="soup-next"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <audio id="myAudio" autoplay>
+        <source src="Until I Found You - Stephen Sanchez (Piano Cover by Riyandi Kusuma).mp3" type="audio/mp3">
+    </audio>
+</body>
+
+</html> 
